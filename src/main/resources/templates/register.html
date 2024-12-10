@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            background-color: rgba(0, 93, 185, 0.3)
+        }
+        
+        
+    </style>
+<title>Register Page</title>
+</head>
+<body>
+	
+		<div class="container-fluid  mt-5">
+		    <div class="row">
+		        <div class="col-3"></div>
+		        <div class="col-6">
+		           <div class="card">
+		              <div class="card-header bg-warning text-center">
+		                 <h3>User Register</h3>
+		                 
+		              </div>
+		              <div class="card-body">
+							<form action="/saveUser" method="post">
+								<div class="row">
+								    <div class="col-12 mt-3">
+									   <label>Name</label>
+								       <input type="text" name="username" class="form-control mt-1 p-2" placeholder="enter your name">
+								    </div>
+								    <div class="col-12  mt-3">
+									   <label>Email</label>
+									   <input type="email" name="email" class="form-control mt-1 p-2" placeholder="enter your email">									
+								    </div>
+								    <div class="col-12  mt-3">
+									   <label>Mobile Number</label>
+									   <input type="number" name="mobileNo" class="form-control mt-1 p-2" placeholder="enter your mobile no.">
+								    </div>
+							     	<div class="col-12  mt-3">
+									   <label>Password</label> 
+									   <input type="password" name="password" class="form-control mt-1 p-2" placeholder="enter your password">	
+								    </div>
+								    <div class="col-2  mt-3">
+									   <button class="btn btn-primary col-md-12">Register</button>
+								    </div>
+								</div>
+							</form>
+						</div>
+		           </div>
+		        </div>
+		    </div>
+		</div>
+	
+	 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>
